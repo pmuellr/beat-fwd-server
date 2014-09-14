@@ -1,0 +1,9 @@
+{
+    "name":             "beat-fwd-server",
+    "dependencies":
+        {
+        "cfenv":        "0.2.x",
+        "express":      "3.5.x",
+        "request":      "2.42.x"
+        }
+}

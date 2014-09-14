@@ -1,0 +1,20 @@
+---
+
+# this file is by `cf push` to determine the settings your your app
+
+applications:
+
+# the name of the app that you will use in `cf` commands
+
+- name:    beat-fwd-server
+
+# the indented values are settings for the app they are indented under
+
+  # this is the host name of your app
+  # using the random-word symbol will assign a unique hostname for this app
+
+  host:    beat-fwd-server
+
+  # amount of RAM we'll need.  Prolly could get by with less!
+
+  memory:  256M
